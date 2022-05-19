@@ -75,7 +75,7 @@ function loadAnimatedObjects( group, imageArray, animationName, spriteNumber, sp
 
 // load platforms
 function loadPlatforms() {
-  img=loadImage('imgs/scene/platform.png');
+  img=loadImage('platform.png');
   for(i=0;i<70;i++){
     randomNumber=random();
     if(randomNumber>0.2){
